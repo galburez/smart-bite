@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <title>Smart Bite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="final.css">
+</html>
+
+<body>
+    <!--        Start of Nav Bar         -->
+    <div class="row navbar">
+        <div class="col s3 m4 l2 navbar-content">
+            <h3>Stay Updated</h1>
+        </div>
+
+        <div class="col s6 m4 l8 navbar-content">
+            <img src="images/Logo.png" alt="Smart Bite Logo" id="navbar-img">
+        </div>
+        
+        <div class="col s3 m4 l2 navbar-content">
+            <h3>Sign Up</h3>
+        </div>
+    </div>
+    <!--        End of Nav Bar       -->
+
+    <!--        Start of Landing         -->
+    <div class="row"> 
+        <div class="col s3 offset-s1 center">
+            <img src="images/Homepage.png" alt="Smart Bite Homepage" class="responsive-img">
+        </div>
+
+        <div class="col s6 offset-s1">
+            <h1 class="center color-green"> Smart Bite: Smarter Meals, Healthier Living</h1>
+            <p class="color-gunmetal">Smart Bite is a personalized meal planning app designed to simplify healthy eating. It helps users create dynamic meal plans tailored to their dietary preferences, cooking skills, and nutritional goals. With features like recipe discovery, grocery list generation, and nutritional tracking, Smart Bite makes it easy to plan, prepare, and enjoy meals that fit your lifestyle.</p>
+        </div>
+    </div>
+    <!--        End of Landing       -->
+
+    <div class="divider"></div>
+
+    <!--        Start of Main Features       -->
+    <div class="row">
+        <div class="col s12 center">
+            <h1 class="color-gunmetal"> Checkout the Main Features: </h1>
+        </div>
+
+        <div class="col s4">
+            <h2 class="color-green center"> Your Plan</h2>
+            <p class="center">The Your Plan tab helps you build a dynamic, personalized meal plan tailored to your favorite recipes and preferences.</p>
+
+            <div class="center">
+                <button type="button" id="button1" onclick="your_plan_transformer()">See More</button>
+                <img id="your-plan-img" style="display: none;">
+            </div>
+
+        </div>
+
+        <div class="col s4">
+            <h2 class="color-blue center"> Recipe Book</h2>
+            <p class="center color-gunmetal">The Recipe Book lets you create personalized cookbooks with your favorite recipes and discover new ones to try.</p>
+
+            <div class="center">
+                <button type="button" id="button2" onclick="recipe_book_transformer()">See More</button>
+                <img id="recipe-book-img" style="display: none;">
+            </div>
+
+        </div>
+
+        <div class="col s4">
+            <h2 class="color-orange center"> Resources</h2>
+            <p class="center">The Resources tab is where you can find helpful guides and videos that will elevate your skills and meal prepping ability.</p>
+
+            <div class="center">
+                <button type="button" id="button3" onclick="resources_transformer()">See More</button> 
+                <img id="resources-img" style="display: none;">
+            </div>
+
+        </div>
+    </div>
+    <!--        End of Main Features         -->
+
+    <div class="divider"></div>
+
+    <!--        Start of User Flow         -->
+    <div class="row">
+        <div class="col s12 center">
+            <h1 class="color-gunmetal">Explore the User Flow:</h1>
+        </div>
+
+        <div class="col s10 offset-s1 center">
+            <p class="color-gunmetal">This is the user flow for a new user who is trying to visit the Recipe Book tab, and see his current recipe books and new suggested recipes. They go through a basic on boarding quiz followed by a basic tour of the application. From there the user is able to freely visit the recipe book tab. Use the next and back buttons to navigate.</p>
+        </div>
+
+        <div class="col s2 offset-s2">
+            <button class="prev" onclick="changeImg(-1)" >Back</button>
+        </div>
+
+        <div class="col s4">
+            <div class="carousel-container">
+                  
+                <div>
+                  <img class = "carousel" src="images/Onboarding Loading.png">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col s2 center">
+            <button class="next" onclick="changeImg(1)" >Next</button>
+        </div>
+        
+    </div>
+    <!--        End of User Flow         -->
+
+    <div class="divider"></div>
+    <div class="divider"></div>
+
+    <script src="final.js"></script>
+</body>
+</html>

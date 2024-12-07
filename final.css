@@ -1,0 +1,247 @@
+/* 
+    Colors:
+    #0A2E36 gunmetal (dark green)
+    #4C9F70 shamrock (light green)
+    #008DD5 celestial (light blue)
+    #FFFFFF white (white)
+    #FF8811 orange (orange 
+*/
+
+/* Basics */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    margin-top: 75px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+.color-green {
+    color: #4C9F70;
+}
+
+.color-gunmetal {
+    color: #0A2E36
+}
+
+.color-blue {
+    color: #008DD5;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.color-orange {
+    color: #FF8811;
+}
+
+.center {
+    align-items: center;
+}
+
+/* Customs */
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.divider {
+    height: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0A2E36;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar-content{
+    background-color: #0A2E36;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+#navbar-img {
+    height: 60px;
+    width: auto;
+}
+
+.responsive-img {
+    width: auto;
+    box-shadow: 0px 2px 5px black;
+}
+
+#button1 {
+    cursor: pointer;
+    background-color: #4C9F70;
+    border:3 #0A2E36;
+    border-radius: 10px;;
+    color: white;
+    font-weight: bold;
+    padding: 10px 27px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px black;
+    transition: 0.6s ease;
+}
+
+#button1:hover {
+    background-color: #02482f;
+    color: white;
+    box-shadow: 0px 2px 5px black;
+}
+
+#button2 {
+    cursor: pointer;
+    background-color: #008DD5;
+    border:3 #0A2E36;
+    border-radius: 10px;;
+    color: white;
+    font-weight: bold;
+    padding: 10px 27px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px black;
+    transition: 0.6s ease;
+}
+
+#button2:hover {
+    background-color: #005d8b;
+    color: white;
+    box-shadow: 0px 2px 5px black;
+}
+
+#button3 {
+    cursor: pointer;
+    background-color: #FF8811;
+    border:3 #0A2E36;
+    border-radius: 10px;;
+    color: white;
+    font-weight: bold;
+    padding: 10px 27px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px black;
+    transition: 0.6s ease;
+}
+
+#button3:hover {
+    background-color: #934f0b;
+    color: white;
+    box-shadow: 0px 2px 5px black;
+}
+
+/* Copied defaults from W3 Schools */
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h6 {
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/* Carousel: */
+.carousel-container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.carousel {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    height: auto;
+    box-shadow: 0px 2px 5px black;
+}
+  
+.prev, .next {
+    cursor: pointer;
+    display: block; 
+    margin: auto;
+    padding: 16px;
+    background-color: #0A2E36;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+    margin-top: 100%;
+}
+
+
+.prev:hover, .next:hover {
+    background-color: #ffffff;
+    color: #0A2E36;
+}
+  
